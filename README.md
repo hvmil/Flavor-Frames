@@ -16,13 +16,13 @@
 - **Framework**: Built with React.
 - **AI Integration**: Uses OpenAI's GPT-4 model for image recognition and recipe generation
 - **State Management**: Utilizes React's `useState` and `useEffect` hooks for state management.
+- **Cloudinary API**: to upload images and extract URL for GPT4 Vision queries
 
 
 
 ## Demo
 
-https://i.giphy.com/az03tetQh80a21nC45.mp4
-
+![](https://i.giphy.com/02p42MiXWBnUWeB5nK.webp)
 
 ## Installation
 
@@ -36,24 +36,25 @@ https://i.giphy.com/az03tetQh80a21nC45.mp4
   npm install
 
 ```
-3. Set up the OpenAI API Key in your environment variables:
+3. Set up the OpenAI API and Cloudinary API Key in your environment variables:
 ```
 VITE_OPENAI_API_KEY=your_openai_api_key_here
+VITE_CLOUDINARY_API_KEY=your_cloudinary_api_key_here
 ```
 4. Run the application:
 ```
 npm start
 ```
     
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://cs.newpaltz.edu/~dimapanh1/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamil-dimapanat-1b6057167/)
-
-
 ## Usage/Examples
 
 - To submit an image, simply drag and drop a picture of ingredients and press "Submit".
 - The application will display AI-generated feedback based on the provided image.
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://cs.newpaltz.edu/~dimapanh1/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamil-dimapanat-1b6057167/)
 
 
 ## License
